@@ -53,7 +53,7 @@ def create_account(token):
             client_id = getClient()
             session.cookies = client_id[1]
             client_id = client_id[0]
-            password = 'jakekielb06'
+            password = 'nab0rsbotslol3'
             username = f'nab0rs{random.randint(1,100005)}'
             session_token = token.split('|')[0]
             captcha = session.get(f'https://client-api.arkoselabs.com/fc/get_audio/?session_token={session_token}&analytics_tier=40&r=us-west-2&language=en', proxies={'http':random.choice(proxies), 'https':random.choice(proxies)})
