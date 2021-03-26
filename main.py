@@ -94,7 +94,7 @@ def handle():
     while True:
         getCaptcha()
 
-for x in range(1000):
+for x in range(250):
     threading.Thread(target=handle,).start()
 
 
